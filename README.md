@@ -60,100 +60,95 @@ I'm currently building hands-on projects with Python and machine-learning librar
 # 📂 Machine Learning Projects
 
 I have built and documented the following projects as part of my practical Machine Learning journey.
+## 🚀 Featured Projects
 
-### 1. ✍️ Handwritten Digit Recognition
+### 🏠 House Price Prediction Web App
 
-**Machine Learning / Neural Network**
+End-to-end house price prediction web application using Random Forest regression and Flask.
 
-A handwritten digit classification project using an MLP neural network to recognize handwritten digits from image data.
+**Tech:** Python • Scikit-learn • Random Forest • Flask • HTML • CSS
 
-**Topics:** Neural Networks, MLP, Classification, Model Evaluation
-
-🔗 [View Project](https://github.com/Rajesh-code11/handwritten-digit-recognition)
-
----
-
-### 2. 📉 Customer Churn Prediction
-
-**Machine Learning / Classification**
-
-A machine-learning project that predicts whether customers are likely to leave a service based on customer-related features.
-
-**Topics:** Classification, Data Preprocessing, Model Comparison, Model Evaluation
-
-🔗 [View Project](https://github.com/Rajesh-code11/customer-churn-prediction)
+🔗 [View Repository](https://github.com/Rajesh-code11/house-price-prediction-app)
 
 ---
 
-### 3. 🎬 Movie Recommendation System
+### 🧠 Handwritten Digit Recognition
 
-**NLP / Recommendation System**
+Handwritten digit classification using an MLP neural network with model evaluation and visualization.
 
-A content-based movie recommendation system that uses movie information and text similarity to recommend similar movies.
+**Tech:** Python • Scikit-learn • Neural Networks • MLP
 
-**Topics:** NLP, TF-IDF, Cosine Similarity, Recommendation Systems
-
-🔗 [View Project](https://github.com/Rajesh-code11/movie-recommendation-system)
+🔗 [View Repository](https://github.com/Rajesh-code11/handwritten-digit-recognition)
 
 ---
 
-### 4. 👥 Customer Segmentation
+### 📉 Customer Churn Prediction
 
-**Unsupervised Machine Learning**
+Customer churn prediction using machine-learning classification models with preprocessing, cross-validation, and model evaluation.
 
-A customer segmentation project that groups customers based on their characteristics and behavior.
+**Tech:** Python • Scikit-learn • Classification • Cross-Validation
 
-**Topics:** Clustering, Unsupervised Learning, Data Analysis, Visualization
-
-🔗 [View Project](https://github.com/Rajesh-code11/customer-segmentation)
+🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn-prediction)
 
 ---
 
-### 5. 📧 Spam Email Detection
+### 🎬 Movie Recommendation System
 
-**NLP / Classification**
+Content-based movie recommendation system using TF-IDF and cosine similarity.
 
-A natural language processing project that classifies messages as spam or non-spam using text features and machine-learning techniques.
+**Tech:** Python • NLP • TF-IDF • Cosine Similarity • Scikit-learn
 
-**Topics:** NLP, Text Classification, TF-IDF, Machine Learning
-
-🔗 [View Project](https://github.com/Rajesh-code11/spam-email-detection)
+🔗 [View Repository](https://github.com/Rajesh-code11/movie-recommendation-system)
 
 ---
 
-### 6. 🌸 Iris Classification
+### 📧 Spam Email Detection
 
-**Machine Learning / Classification**
+Spam email classification using NLP, TF-IDF text features, and machine-learning models.
 
-A multi-model classification project using the Iris dataset to compare different machine-learning algorithms and evaluate their performance.
+**Tech:** Python • NLP • TF-IDF • Text Classification
 
-**Topics:** Classification, Cross-Validation, Model Comparison, Feature Importance
-
-🔗 [View Project](https://github.com/Rajesh-code11/iris-classification)
+🔗 [View Repository](https://github.com/Rajesh-code11/spam-email-detection)
 
 ---
 
-### 7. 🚢 Titanic Survival Prediction
+### 💼 AI Job Skill Gap Analyzer
 
-**Machine Learning / Classification**
+NLP-powered job compatibility and skill gap analyzer using skill extraction, TF-IDF similarity, and hybrid scoring.
 
-An end-to-end machine-learning project that predicts passenger survival using multiple classification algorithms and cross-validation techniques.
+**Tech:** Python • NLP • TF-IDF • Scikit-learn
 
-**Topics:** Data Preprocessing, Classification, K-Fold Cross-Validation, GridSearchCV, Model Evaluation
-
-🔗 [View Project](https://github.com/Rajesh-code11/titanic-survival-prediction)
+🔗 [View Repository](https://github.com/Rajesh-code11/job-skill-gap-analyzer)
 
 ---
 
-### 8. 💼 AI Job Skill Gap Analyzer
+### 🚢 Titanic Survival Prediction
 
-**NLP / Career Recommendation**
+End-to-end Titanic survival prediction using multiple classification models, cross-validation, and hyperparameter tuning.
 
-An NLP-powered system that compares a user's technical skills with job requirements, identifies missing skills, calculates job compatibility, ranks jobs, and generates personalized learning priorities.
+**Tech:** Python • Scikit-learn • Classification • GridSearchCV
 
-**Topics:** Skill Extraction, TF-IDF, Cosine Similarity, NLP, Recommendation, Hybrid Scoring
+🔗 [View Repository](https://github.com/Rajesh-code11/titanic-survival-prediction)
 
-🔗 [View Project](https://github.com/Rajesh-code11/job-skill-gap-analyzer)
+---
+
+### 🌸 Iris Classification
+
+Iris flower classification with multiple machine-learning models, cross-validation, and feature importance analysis.
+
+**Tech:** Python • Scikit-learn • Classification • Cross-Validation
+
+🔗 [View Repository](https://github.com/Rajesh-code11/iris-classification)
+
+---
+
+### 👥 Customer Segmentation
+
+Customer segmentation using unsupervised machine learning to identify groups with similar characteristics and behavior.
+
+**Tech:** Python • Clustering • Unsupervised Learning • Data Analysis
+
+🔗 [View Repository](https://github.com/Rajesh-code11/customer-segmentation)
 
 ---
 
