@@ -1,22 +1,23 @@
 # Hi, I'm Rajesh 👋
 
-### Computer Science Student | Machine Learning & NLP Enthusiast
+### Computer Science Student | Machine Learning & Deep Learning Enthusiast
 
-I'm a Computer Science and Technology student interested in **Machine Learning, Natural Language Processing, and practical software development**.
+I'm a Computer Science and Technology student interested in Machine Learning, Deep Learning, Natural Language Processing, and practical software development.
 
-I'm currently building hands-on projects with Python and machine-learning libraries while strengthening my skills in data analysis, model evaluation, NLP, and software development.
+I build hands-on projects to strengthen my understanding of data analysis, machine learning, neural networks, model evaluation, and end-to-end software development.
 
 ---
 
 ## 🚀 About Me
 
 * 🎓 Computer Science and Technology student
-* 🐍 Building my Python and Machine Learning skills through hands-on projects
-* 🤖 Interested in Machine Learning, NLP, and AI applications
-* 📊 Enjoy working with data and turning it into useful insights
+* 🐍 Building practical projects with Python and machine-learning frameworks
+* 🤖 Interested in Machine Learning, Deep Learning, NLP, and AI applications
+* 📊 Enjoy working with data and evaluating machine-learning models
+* 🧠 Learning and applying neural networks and CNNs with PyTorch
 * 💻 Experience with Java, JavaScript, HTML, CSS, SQL, and Python
-* 🔨 Building practical projects to strengthen my technical portfolio
-* 🌏 Preparing for future international internship and career opportunities
+* 🔧 Building and documenting practical projects for my technical portfolio
+* 🌏 Preparing for future international internship, research, and career opportunities
 
 ---
 
@@ -26,21 +27,34 @@ I'm currently building hands-on projects with Python and machine-learning librar
 
 `Python` `Java` `JavaScript` `SQL` `HTML` `CSS`
 
-### Data & Machine Learning
+### Data Science & Machine Learning
 
-`Pandas` `NumPy` `Matplotlib` `Seaborn` `Scikit-learn`
+`NumPy` `Pandas` `Matplotlib` `Scikit-learn`
 
 ### Machine Learning Concepts
 
 * Data preprocessing
 * Feature engineering
 * Classification
-* Regression fundamentals
+* Regression
 * Clustering
 * Cross-validation
 * Hyperparameter tuning
 * Model evaluation
 * Feature importance
+* Ensemble learning
+
+### Deep Learning
+
+`PyTorch` `Torchvision` `TensorBoard`
+
+* Neural networks
+* CNNs
+* Image classification
+* Backpropagation fundamentals
+* Model training and evaluation
+* Loss functions and optimization
+* Training visualization
 
 ### NLP & Recommendation
 
@@ -53,14 +67,27 @@ I'm currently building hands-on projects with Python and machine-learning librar
 
 ### Tools
 
-`Git` `GitHub` `VS Code` `Jupyter Notebook`
+`Git` `GitHub` `VS Code` `Jupyter Notebook` `MySQL`
 
 ---
 
-# 📂 Machine Learning Projects
+# 📂 Machine Learning & Deep Learning Projects
 
-I have built and documented the following projects as part of my practical Machine Learning journey.
+I build and document hands-on projects covering classical machine learning, NLP, recommendation systems, neural networks, deep learning, and deployment.
+
 ## 🚀 Featured Projects
+
+### 🧠 FashionMNIST CNN — PyTorch
+
+Compared two custom AlexNet-style CNN architectures with 5 and 7 convolutional layers for FashionMNIST image classification.
+
+**Result:** AlexNet-5Conv achieved **88.48% test accuracy**, outperforming the 7-convolution model by **2.31 percentage points**.
+
+**Tech:** PyTorch • Torchvision • CNN • FashionMNIST • TensorBoard
+
+🔗 [View Repository](https://github.com/Rajesh-code11/fashionmnist-cnn-pytorch)
+
+---
 
 ### 🏠 House Price Prediction Web App
 
@@ -82,13 +109,13 @@ Handwritten digit classification using an MLP neural network with model evaluati
 
 ---
 
-### 📉 Customer Churn Prediction
+### 👥 Customer Churn Prediction
 
 Customer churn prediction using machine-learning classification models with preprocessing, cross-validation, and model evaluation.
 
 **Tech:** Python • Scikit-learn • Classification • Cross-Validation
 
-🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn-prediction)
+🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn)
 
 ---
 
@@ -169,6 +196,9 @@ Machine Learning
 ├── Neural Networks
 │   └── Handwritten Digit Recognition
 │
+├── Deep Learning
+│   └── FashionMNIST CNN
+│
 └── NLP & Recommendation
     ├── Spam Email Detection
     ├── Movie Recommendation System
@@ -183,13 +213,16 @@ I'm continuing to strengthen my foundations in:
 
 * Advanced Python
 * Machine Learning
-* Natural Language Processing
 * Deep Learning
+* PyTorch
+* Convolutional Neural Networks
+* Natural Language Processing
 * Data Analysis
 * Software Development
 * End-to-end machine-learning workflows
+* Model deployment
 
-I'm also working toward building projects that are increasingly closer to **real-world applications** rather than only following tutorial examples.
+My focus is gradually moving from individual exercises toward more complete, reproducible, and practical projects.
 
 ---
 
@@ -197,31 +230,33 @@ I'm also working toward building projects that are increasingly closer to **real
 
 My current goal is to build a strong combination of:
 
-**Computer Science + Software Development + Machine Learning**
+**Computer Science + Software Development + Machine Learning + Deep Learning**
 
-and use these skills to prepare for **international internship and job opportunities after graduation**.
+and use these skills to prepare for international internship, research, graduate-study, and career opportunities.
 
 ---
 
 # 📈 My Learning Approach
 
-> **Learn the concept → build something → evaluate it → improve it → document it.**
+> Learn the concept → build something → evaluate it → improve it → document it.
 
-My projects are built as hands-on practice with an emphasis on understanding the complete workflow, from data preparation and model development to evaluation, visualization, and documentation.
+My projects emphasize understanding the complete workflow, from data preparation and model development to evaluation, visualization, documentation, and deployment.
 
 ---
 
 # 🔧 What I'm Working Toward
 
-I'm gradually moving from individual machine-learning exercises toward **larger, more practical projects** involving:
+I'm gradually developing projects involving:
 
 * Real-world datasets
+* Machine learning model comparison
+* Deep learning and computer vision
 * NLP applications
 * Recommendation systems
-* Model evaluation and comparison
+* Model evaluation and optimization
 * Reusable Python code
 * End-to-end project organization
-* Eventually deploying machine-learning applications
+* Machine-learning deployment
 
 ---
 
@@ -235,4 +270,4 @@ I'm gradually moving from individual machine-learning exercises toward **larger,
 
 I'm continuously learning, building, and improving.
 
-**More projects coming soon. 🚀**
+**More projects, experiments, and research-oriented work coming soon. 🚀**
