@@ -75,7 +75,20 @@ I build hands-on projects to strengthen my understanding of data analysis, machi
 
 I build and document hands-on projects covering classical machine learning, NLP, recommendation systems, neural networks, deep learning, and deployment.
 
-## 🚀 Featured Projects
+## 🔬 Research Projects
+
+### [FashionMNIST CNN Depth Study](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
+
+**PyTorch · CNNs · Experimental Design · Statistical Analysis**
+
+A controlled study investigating how CNN depth and width affect FashionMNIST classification performance.
+
+* Compared **CNN5, CNN5Wide, and CNN7** across **15 runs and 5 random seeds**.
+* CNN5 achieved the highest mean validation accuracy (**93.29%**) and the lowest run-to-run variability.
+* Used **paired t-tests** to evaluate whether performance differences were statistically significant.
+* Found that increasing depth from 5 to 7 convolutional layers did not improve performance under the controlled experimental setup.
+* Includes reproducible training code, raw results, statistical analysis, visualizations, and a Jupyter notebook.
+
 
 ### 🧠 FashionMNIST CNN — PyTorch
 
