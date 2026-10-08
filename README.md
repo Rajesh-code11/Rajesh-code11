@@ -77,18 +77,17 @@ I build and document hands-on projects covering classical machine learning, NLP,
 
 ## 🔬 Research Projects
 
-### [FashionMNIST CNN Depth Study](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
+### 🔬 FashionMNIST CNN Depth Study — PyTorch
 
-**PyTorch · CNNs · Experimental Design · Statistical Analysis**
+Conducted a controlled experimental study comparing CNN depth and width for FashionMNIST image classification across **15 runs and 5 random seeds**.
 
-A controlled study investigating how CNN depth and width affect FashionMNIST classification performance.
+**Result:** CNN5 achieved the highest mean validation accuracy of **93.29%**, outperforming CNN7 by **0.74 percentage points** with lower run-to-run variability.
 
-* Compared **CNN5, CNN5Wide, and CNN7** across **15 runs and 5 random seeds**.
-* CNN5 achieved the highest mean validation accuracy (**93.29%**) and the lowest run-to-run variability.
-* Used **paired t-tests** to evaluate whether performance differences were statistically significant.
-* Found that increasing depth from 5 to 7 convolutional layers did not improve performance under the controlled experimental setup.
-* Includes reproducible training code, raw results, statistical analysis, visualizations, and a Jupyter notebook.
+**Analysis:** Used paired statistical tests to evaluate model differences and found a significant performance difference between CNN5 and CNN7 under the controlled experimental setup.
 
+**Tech:** PyTorch • CNN • FashionMNIST • Experimental Design • Statistical Analysis • Model Evaluation
+
+🔗 [View Repository](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
 
 ### 🧠 FashionMNIST CNN — PyTorch
 
