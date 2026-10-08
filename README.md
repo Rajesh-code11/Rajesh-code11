@@ -115,7 +115,7 @@ Customer churn prediction using machine-learning classification models with prep
 
 **Tech:** Python • Scikit-learn • Classification • Cross-Validation
 
-🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn)
+🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn-prediction)
 
 ---
 
