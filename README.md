@@ -1,6 +1,6 @@
 # Hi, I'm Rajesh 👋
 
-### Computer Science Student | Machine Learning & Deep Learning Enthusiast
+### Computer Science Student | Machine Learning & Computer Vision
 
 I'm a Computer Science and Technology student interested in Machine Learning, Deep Learning, Natural Language Processing, and practical software development.
 
