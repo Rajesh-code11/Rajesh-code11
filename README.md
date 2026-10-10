@@ -28,7 +28,7 @@ I'm preparing for future **MSc research opportunities in Machine Learning, Artif
 `Python` `Java` `JavaScript` `SQL` `HTML` `CSS`
 
 ### Machine Learning & Data Science
-`Scikit-learn` `Pandas` `NumPy` `Matplotlib` `Seaborn`
+`Scikit-learn` `Pandas` `NumPy` `SciPy` `Matplotlib` `Seaborn`
 
 - Data preprocessing and feature engineering
 - Classification and regression
@@ -36,6 +36,7 @@ I'm preparing for future **MSc research opportunities in Machine Learning, Artif
 - Cross-validation and hyperparameter tuning
 - Model comparison and evaluation
 - Feature importance and data visualization
+- Serving a trained model through a web app
 
 ### Deep Learning
 `PyTorch` `Convolutional Neural Networks (CNNs)` `Neural Networks`
@@ -55,26 +56,36 @@ I'm preparing for future **MSc research opportunities in Machine Learning, Artif
 - Skill extraction and hybrid scoring
 
 ### Tools
-`Git` `GitHub` `VS Code` `Jupyter Notebook` `TensorBoard`
+`Git` `GitHub` `Flask` `VS Code` `Jupyter Notebook` `TensorBoard` `MySQL`
 
 ---
 
 ## 🔬 Featured Deep Learning Projects
 
-### 1. FashionMNIST CNN Depth Study
+### 1. FashionMNIST CNN Depth & Width Study
 
 **PyTorch · Deep Learning · Computer Vision · Experimental Evaluation**
 
-A multi-seed experimental study comparing CNN architectures on FashionMNIST. The project investigates how network depth and width relate to classification performance, using repeated runs rather than relying on a single training result.
+A multi-seed experimental study comparing CNN architectures on FashionMNIST. The project looks at how network depth and width relate to classification performance, using repeated runs instead of a single training result.
 
 **Experimental setup**
 - Compared CNN5, CNN5Wide, and CNN7 architectures
-- Evaluated each architecture across five random seeds
+- Ran each architecture with five random seeds (15 runs per experiment stage)
+- Selected checkpoints by minimum validation loss
 - Used a fixed data-split seed for consistency
-- Recorded test accuracy, test loss, and variation across runs
+- Recorded accuracy, loss, and variation across runs
 - Created plots and structured result files for analysis
 
-**Reported CPU test-set results**
+**Colab validation results (exploratory, n = 5 paired runs)**
+
+| Architecture | Mean validation accuracy |
+|---|---:|
+| CNN5 | 93.29% ± 0.16% |
+| CNN7 | 92.55% ± 0.33% |
+
+A paired t-test between CNN5 and CNN7 gave p = 0.0143.
+
+**Separate CPU test-set results**
 
 | Architecture | Mean accuracy | Standard deviation |
 |---|---:|---:|
@@ -82,9 +93,9 @@ A multi-seed experimental study comparing CNN architectures on FashionMNIST. The
 | CNN5Wide | 92.37% | 0.20 percentage points |
 | CNN7 | 92.07% | 0.20 percentage points |
 
-The results suggest that increasing depth did not automatically improve performance in this experimental setup. The project emphasizes systematic comparison and reporting variation across runs, rather than focusing on accuracy alone.
+Adding depth did not improve performance in this setup. The gaps on the test set are small, and the statistical test uses only five paired runs on one dataset, so I treat the result as exploratory. The point of the project is the comparison method and reporting variation across runs, not a single accuracy number.
 
-**Technologies:** Python, PyTorch, FashionMNIST, CNNs, NumPy, Pandas, Matplotlib
+**Technologies:** Python, PyTorch, SciPy, FashionMNIST, CNNs, NumPy, Pandas, Matplotlib
 
 🔗 [View Project](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
 
@@ -120,9 +131,9 @@ An NLP-powered system that compares technical skills with job requirements, iden
 
 **Neural Networks · Image Classification**
 
-A handwritten-digit classification project using a multilayer perceptron (MLP) to recognize digits from image data.
+A handwritten-digit classification project that compares Logistic Regression (97.22% test accuracy) with a multilayer perceptron (MLP) tuned with GridSearchCV (24 configurations, 5-fold cross-validation). The tuned MLP reached 98.33% test accuracy (354/360). Error analysis showed digit 8 was the hardest class, with 91% recall.
 
-**Topics:** Neural Networks, MLP, Classification, Model Evaluation
+**Topics:** Neural Networks, MLP, GridSearchCV, Classification, Error Analysis
 
 🔗 [View Project](https://github.com/Rajesh-code11/handwritten-digit-recognition)
 
@@ -132,7 +143,7 @@ A handwritten-digit classification project using a multilayer perceptron (MLP) t
 
 **Supervised Learning · Classification**
 
-A machine-learning project that predicts whether customers are likely to leave a service, with attention to preprocessing, model comparison, and evaluation metrics.
+A machine-learning project that predicts whether customers are likely to leave a service. It compares five classifiers on 7,043 telecom customer records, using pipelines, 5-fold cross-validation, and a held-out test set. Logistic Regression performed best (ROC-AUC 0.842, F1-score 0.607), and hyperparameter tuning did not improve test performance.
 
 **Topics:** Classification, Data Preprocessing, Model Comparison, F1 Score, ROC-AUC
 
@@ -140,7 +151,19 @@ A machine-learning project that predicts whether customers are likely to leave a
 
 ---
 
-### 6. Movie Recommendation System
+### 6. House Price Prediction Web App
+
+**Regression · Model Deployment · Flask**
+
+A regression project that predicts house prices from the California Housing dataset (20,640 samples). It compares Linear Regression, Random Forest, and Gradient Boosting, then tunes the Random Forest with GridSearchCV (R² = 0.806, RMSE = 0.504). The final model is served through a Flask web app with input validation.
+
+**Topics:** Regression, Random Forest, Gradient Boosting, GridSearchCV, Flask, Input Validation
+
+🔗 [View Project](https://github.com/Rajesh-code11/house-price-prediction-app)
+
+---
+
+### 7. Movie Recommendation System
 
 **NLP · Recommendation Systems**
 
@@ -152,7 +175,7 @@ A content-based recommendation system that uses movie information and text simil
 
 ---
 
-### 7. Customer Segmentation
+### 8. Customer Segmentation
 
 **Unsupervised Machine Learning**
 
@@ -164,11 +187,11 @@ A project that groups customers based on their characteristics and behaviour to 
 
 ---
 
-### 8. Spam Email Detection
+### 9. Spam Email Detection
 
 **NLP · Text Classification**
 
-A natural language processing project that classifies messages as spam or non-spam using text features and machine-learning techniques.
+A natural language processing project that classifies messages as spam or non-spam on the SMS Spam Collection dataset. It compares SVM, Logistic Regression, and Naive Bayes with TF-IDF features. SVM performed best at 98.12% test accuracy.
 
 **Topics:** NLP, TF-IDF, Text Classification, Model Evaluation
 
@@ -176,7 +199,7 @@ A natural language processing project that classifies messages as spam or non-sp
 
 ---
 
-### 9. Iris Classification
+### 10. Iris Classification
 
 **Machine Learning · Model Comparison**
 
@@ -188,7 +211,7 @@ A classification project using the Iris dataset to compare machine-learning algo
 
 ---
 
-### 10. Titanic Survival Prediction
+### 11. Titanic Survival Prediction
 
 **Machine Learning · Classification**
 
@@ -223,6 +246,7 @@ I'm continuing to strengthen my theoretical foundations and practical skills as 
 ## 📫 Connect With Me
 
 - GitHub: [Rajesh-code11](https://github.com/Rajesh-code11)
+- Email: [alerajesh76@gmail.com](mailto:alerajesh76@gmail.com)
 
 ---
 
