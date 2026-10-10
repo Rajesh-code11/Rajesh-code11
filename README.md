@@ -1,285 +1,231 @@
 # Hi, I'm Rajesh 👋
 
-### Computer Science Student | Machine Learning & Computer Vision
+### Computer Science & Technology Undergraduate | Machine Learning, Deep Learning & Computer Vision
 
-I'm a Computer Science and Technology student interested in Machine Learning, Deep Learning, Natural Language Processing, and practical software development.
+I'm a Computer Science and Technology undergraduate at Hefei University, China, interested in **machine learning, deep learning, computer vision, and model evaluation**.
 
-I build hands-on projects to strengthen my understanding of data analysis, machine learning, neural networks, model evaluation, and end-to-end software development.
+I build hands-on projects with Python and machine-learning frameworks, focusing on understanding model behaviour, comparing approaches, and documenting results. I'm currently developing my PyTorch skills through CNN experiments and multi-seed evaluation studies.
+
+I'm preparing for future **MSc research opportunities in Machine Learning, Artificial Intelligence, and Computer Vision**.
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-* 🎓 Computer Science and Technology student
-* 🐍 Building practical projects with Python and machine-learning frameworks
-* 🤖 Interested in Machine Learning, Deep Learning, NLP, and AI applications
-* 📊 Enjoy working with data and evaluating machine-learning models
-* 🧠 Learning and applying neural networks and CNNs with PyTorch
-* 💻 Experience with Java, JavaScript, HTML, CSS, SQL, and Python
-* 🔧 Building and documenting practical projects for my technical portfolio
-* 🌏 Preparing for future international internship, research, and career opportunities
+- 🎓 B.Sc. Computer Science and Technology undergraduate at Hefei University
+- 🧠 Interested in Machine Learning, Deep Learning, and Computer Vision
+- 🔬 Exploring CNN architectures, model behaviour, and systematic evaluation
+- 🔥 Currently developing practical experience with PyTorch
+- 📊 Interested in data analysis, experimental comparison, and reproducible workflows
+- 💻 Experience with Python, Java, JavaScript, SQL, HTML, and CSS
+- 🌏 Preparing for international postgraduate study and research opportunities
 
 ---
 
 ## 🛠️ Technical Skills
 
 ### Programming
-
 `Python` `Java` `JavaScript` `SQL` `HTML` `CSS`
 
-### Data Science & Machine Learning
+### Machine Learning & Data Science
+`Scikit-learn` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
-`NumPy` `Pandas` `Matplotlib` `Scikit-learn`
-
-### Machine Learning Concepts
-
-* Data preprocessing
-* Feature engineering
-* Classification
-* Regression
-* Clustering
-* Cross-validation
-* Hyperparameter tuning
-* Model evaluation
-* Feature importance
-* Ensemble learning
+- Data preprocessing and feature engineering
+- Classification and regression
+- Clustering and unsupervised learning
+- Cross-validation and hyperparameter tuning
+- Model comparison and evaluation
+- Feature importance and data visualization
 
 ### Deep Learning
+`PyTorch` `Convolutional Neural Networks (CNNs)` `Neural Networks`
 
-`PyTorch` `Torchvision` `TensorBoard`
+- Neural network fundamentals
+- CNN architecture implementation and comparison
+- Training and validation workflows
+- Loss and accuracy analysis
+- Multi-seed experimental evaluation
 
-* Neural networks
-* CNNs
-* Image classification
-* Backpropagation fundamentals
-* Model training and evaluation
-* Loss functions and optimization
-* Training visualization
+### NLP & Recommendation Systems
 
-### NLP & Recommendation
-
-* Text preprocessing
-* TF-IDF
-* Cosine similarity
-* Text classification
-* Content-based recommendation
-* Skill extraction
+- Text preprocessing and TF-IDF
+- Cosine similarity
+- Text classification
+- Content-based recommendation
+- Skill extraction and hybrid scoring
 
 ### Tools
-
-`Git` `GitHub` `VS Code` `Jupyter Notebook` `MySQL`
-
----
-
-# 📂 Machine Learning & Deep Learning Projects
-
-I build and document hands-on projects covering classical machine learning, NLP, recommendation systems, neural networks, deep learning, and deployment.
-
-## 🔬 Research Projects
-
-### 🔬 FashionMNIST CNN Depth Study — PyTorch
-
-Conducted a controlled experimental study comparing CNN depth and width for FashionMNIST image classification across **15 runs and 5 random seeds**.
-
-**Result:** CNN5 achieved the highest mean validation accuracy of **93.29%**, outperforming CNN7 by **0.74 percentage points** with lower run-to-run variability.
-
-**Analysis:** Used paired statistical tests to evaluate model differences and found a significant performance difference between CNN5 and CNN7 under the controlled experimental setup.
-
-**Tech:** PyTorch • CNN • FashionMNIST • Experimental Design • Statistical Analysis • Model Evaluation
-
-🔗 [View Repository](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
-
-### 🧠 FashionMNIST CNN — PyTorch
-
-Compared two custom AlexNet-style CNN architectures with 5 and 7 convolutional layers for FashionMNIST image classification.
-
-**Result:** AlexNet-5Conv achieved **88.48% test accuracy**, outperforming the 7-convolution model by **2.31 percentage points**.
-
-**Tech:** PyTorch • Torchvision • CNN • FashionMNIST • TensorBoard
-
-🔗 [View Repository](https://github.com/Rajesh-code11/fashionmnist-cnn-pytorch)
+`Git` `GitHub` `VS Code` `Jupyter Notebook` `TensorBoard`
 
 ---
 
-### 🏠 House Price Prediction Web App
+## 🔬 Featured Deep Learning Projects
 
-End-to-end house price prediction web application using Random Forest regression and Flask.
+### 1. FashionMNIST CNN Depth Study
 
-**Tech:** Python • Scikit-learn • Random Forest • Flask • HTML • CSS
+**PyTorch · Deep Learning · Computer Vision · Experimental Evaluation**
 
-🔗 [View Repository](https://github.com/Rajesh-code11/house-price-prediction-app)
+A multi-seed experimental study comparing CNN architectures on FashionMNIST. The project investigates how network depth and width relate to classification performance, using repeated runs rather than relying on a single training result.
 
----
+**Experimental setup**
+- Compared CNN5, CNN5Wide, and CNN7 architectures
+- Evaluated each architecture across five random seeds
+- Used a fixed data-split seed for consistency
+- Recorded test accuracy, test loss, and variation across runs
+- Created plots and structured result files for analysis
 
-### 🧠 Handwritten Digit Recognition
+**Reported CPU test-set results**
 
-Handwritten digit classification using an MLP neural network with model evaluation and visualization.
+| Architecture | Mean accuracy | Standard deviation |
+|---|---:|---:|
+| CNN5 | 92.48% | 0.30 percentage points |
+| CNN5Wide | 92.37% | 0.20 percentage points |
+| CNN7 | 92.07% | 0.20 percentage points |
 
-**Tech:** Python • Scikit-learn • Neural Networks • MLP
+The results suggest that increasing depth did not automatically improve performance in this experimental setup. The project emphasizes systematic comparison and reporting variation across runs, rather than focusing on accuracy alone.
 
-🔗 [View Repository](https://github.com/Rajesh-code11/handwritten-digit-recognition)
+**Technologies:** Python, PyTorch, FashionMNIST, CNNs, NumPy, Pandas, Matplotlib
 
----
-
-### 👥 Customer Churn Prediction
-
-Customer churn prediction using machine-learning classification models with preprocessing, cross-validation, and model evaluation.
-
-**Tech:** Python • Scikit-learn • Classification • Cross-Validation
-
-🔗 [View Repository](https://github.com/Rajesh-code11/customer-churn-prediction)
-
----
-
-### 🎬 Movie Recommendation System
-
-Content-based movie recommendation system using TF-IDF and cosine similarity.
-
-**Tech:** Python • NLP • TF-IDF • Cosine Similarity • Scikit-learn
-
-🔗 [View Repository](https://github.com/Rajesh-code11/movie-recommendation-system)
+🔗 [View Project](https://github.com/Rajesh-code11/fashionmnist-cnn-depth-study)
 
 ---
 
-### 📧 Spam Email Detection
+### 2. FashionMNIST CNN with PyTorch
 
-Spam email classification using NLP, TF-IDF text features, and machine-learning models.
+**PyTorch · CNN · Image Classification**
 
-**Tech:** Python • NLP • TF-IDF • Text Classification
+An image-classification project implementing and comparing CNN architectures for the FashionMNIST dataset. The workflow covers data preparation, model training, evaluation, and visualization.
 
-🔗 [View Repository](https://github.com/Rajesh-code11/spam-email-detection)
+**Topics:** PyTorch, CNNs, Image Classification, Training Curves, Loss Analysis
 
----
-
-### 💼 AI Job Skill Gap Analyzer
-
-NLP-powered job compatibility and skill gap analyzer using skill extraction, TF-IDF similarity, and hybrid scoring.
-
-**Tech:** Python • NLP • TF-IDF • Scikit-learn
-
-🔗 [View Repository](https://github.com/Rajesh-code11/job-skill-gap-analyzer)
+🔗 [View Project](https://github.com/Rajesh-code11/fashionmnist-cnn-pytorch)
 
 ---
 
-### 🚢 Titanic Survival Prediction
+## 📚 Machine Learning & NLP Projects
 
-End-to-end Titanic survival prediction using multiple classification models, cross-validation, and hyperparameter tuning.
+### 3. AI Job Skill Gap Analyzer
 
-**Tech:** Python • Scikit-learn • Classification • GridSearchCV
+**NLP · Skill Matching · Recommendation**
 
-🔗 [View Repository](https://github.com/Rajesh-code11/titanic-survival-prediction)
+An NLP-powered system that compares technical skills with job requirements, identifies missing skills, estimates job compatibility, ranks job matches, and generates learning priorities.
 
----
+**Topics:** Skill Extraction, TF-IDF, Cosine Similarity, NLP, Hybrid Scoring
 
-### 🌸 Iris Classification
-
-Iris flower classification with multiple machine-learning models, cross-validation, and feature importance analysis.
-
-**Tech:** Python • Scikit-learn • Classification • Cross-Validation
-
-🔗 [View Repository](https://github.com/Rajesh-code11/iris-classification)
+🔗 [View Project](https://github.com/Rajesh-code11/job-skill-gap-analyzer)
 
 ---
 
-### 👥 Customer Segmentation
+### 4. Handwritten Digit Recognition
 
-Customer segmentation using unsupervised machine learning to identify groups with similar characteristics and behavior.
+**Neural Networks · Image Classification**
 
-**Tech:** Python • Clustering • Unsupervised Learning • Data Analysis
+A handwritten-digit classification project using a multilayer perceptron (MLP) to recognize digits from image data.
 
-🔗 [View Repository](https://github.com/Rajesh-code11/customer-segmentation)
+**Topics:** Neural Networks, MLP, Classification, Model Evaluation
 
----
-
-# 🧠 Areas I've Worked On
-
-```text
-Machine Learning
-│
-├── Supervised Learning
-│   ├── Titanic Survival Prediction
-│   ├── Iris Classification
-│   ├── Customer Churn Prediction
-│   └── Spam Email Detection
-│
-├── Unsupervised Learning
-│   └── Customer Segmentation
-│
-├── Neural Networks
-│   └── Handwritten Digit Recognition
-│
-├── Deep Learning
-│   └── FashionMNIST CNN
-│
-└── NLP & Recommendation
-    ├── Spam Email Detection
-    ├── Movie Recommendation System
-    └── Job Skill Gap Analyzer
-```
+🔗 [View Project](https://github.com/Rajesh-code11/handwritten-digit-recognition)
 
 ---
 
-# 📚 Currently Learning
+### 5. Customer Churn Prediction
 
-I'm continuing to strengthen my foundations in:
+**Supervised Learning · Classification**
 
-* Advanced Python
-* Machine Learning
-* Deep Learning
-* PyTorch
-* Convolutional Neural Networks
-* Natural Language Processing
-* Data Analysis
-* Software Development
-* End-to-end machine-learning workflows
-* Model deployment
+A machine-learning project that predicts whether customers are likely to leave a service, with attention to preprocessing, model comparison, and evaluation metrics.
 
-My focus is gradually moving from individual exercises toward more complete, reproducible, and practical projects.
+**Topics:** Classification, Data Preprocessing, Model Comparison, F1 Score, ROC-AUC
+
+🔗 [View Project](https://github.com/Rajesh-code11/customer-churn-prediction)
 
 ---
 
-# 🎯 Goals
+### 6. Movie Recommendation System
 
-My current goal is to build a strong combination of:
+**NLP · Recommendation Systems**
 
-**Computer Science + Software Development + Machine Learning + Deep Learning**
+A content-based recommendation system that uses movie information and text similarity to recommend similar movies.
 
-and use these skills to prepare for international internship, research, graduate-study, and career opportunities.
+**Topics:** TF-IDF, Cosine Similarity, Text Processing, Recommendation Systems
 
----
-
-# 📈 My Learning Approach
-
-> Learn the concept → build something → evaluate it → improve it → document it.
-
-My projects emphasize understanding the complete workflow, from data preparation and model development to evaluation, visualization, documentation, and deployment.
+🔗 [View Project](https://github.com/Rajesh-code11/movie-recommendation-system)
 
 ---
 
-# 🔧 What I'm Working Toward
+### 7. Customer Segmentation
 
-I'm gradually developing projects involving:
+**Unsupervised Machine Learning**
 
-* Real-world datasets
-* Machine learning model comparison
-* Deep learning and computer vision
-* NLP applications
-* Recommendation systems
-* Model evaluation and optimization
-* Reusable Python code
-* End-to-end project organization
-* Machine-learning deployment
+A project that groups customers based on their characteristics and behaviour to explore customer segments.
+
+**Topics:** Clustering, Unsupervised Learning, Data Analysis, Visualization
+
+🔗 [View Project](https://github.com/Rajesh-code11/customer-segmentation)
 
 ---
 
-# 📫 Connect With Me
+### 8. Spam Email Detection
 
-* GitHub: [Rajesh-code11](https://github.com/Rajesh-code11)
+**NLP · Text Classification**
+
+A natural language processing project that classifies messages as spam or non-spam using text features and machine-learning techniques.
+
+**Topics:** NLP, TF-IDF, Text Classification, Model Evaluation
+
+🔗 [View Project](https://github.com/Rajesh-code11/spam-email-detection)
+
+---
+
+### 9. Iris Classification
+
+**Machine Learning · Model Comparison**
+
+A classification project using the Iris dataset to compare machine-learning algorithms and evaluate their performance.
+
+**Topics:** Classification, Cross-Validation, Model Comparison, Feature Importance
+
+🔗 [View Project](https://github.com/Rajesh-code11/iris-classification)
+
+---
+
+### 10. Titanic Survival Prediction
+
+**Machine Learning · Classification**
+
+An end-to-end machine-learning project predicting passenger survival using preprocessing, cross-validation, and model tuning.
+
+**Topics:** Data Preprocessing, Random Forest, SVM, K-Fold Cross-Validation, Hyperparameter Tuning
+
+🔗 [View Project](https://github.com/Rajesh-code11/titanic-survival-prediction)
+
+---
+
+## 📈 My Learning Approach
+
+> Learn the concept → Build an experiment → Evaluate the results → Investigate the behaviour → Document the findings.
+
+I aim to move beyond simply training a model. My projects increasingly emphasize structured workflows, comparison between approaches, clear evaluation metrics, and documentation of results and limitations.
+
+---
+
+## 🎯 Current Research Interests
+
+- Computer Vision and Image Classification
+- Deep Learning and CNN Architectures
+- Neural Network Behaviour
+- Experimental Design and Model Evaluation
+- Reproducible Machine-Learning Experiments
+
+I'm continuing to strengthen my theoretical foundations and practical skills as I prepare for postgraduate study and future research opportunities.
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: [Rajesh-code11](https://github.com/Rajesh-code11)
 
 ---
 
 ⭐ Thanks for visiting my profile!
 
-I'm continuously learning, building, and improving.
-
-**More projects, experiments, and research-oriented work coming soon. 🚀**
+I'm continuously learning, experimenting, and building projects to deepen my understanding of machine learning and artificial intelligence.
